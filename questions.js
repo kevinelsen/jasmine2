@@ -1,54 +1,54 @@
-var CreationTableauLangages = function () {
+var languagesArrayCreation = function () {
 
   return 'A compléter';
 }
 
-var CreationTableauNombres = function () {
+var numbersArrayCreation = function () {
 
     return 'A compléter';
 }
 
-var RemplacementElement = function (langages) {
+var ElementReplacement = function (languages) {
 
   return 'A compléter';
 }
 
-var AjoutElementLangages = function (langages) {
+var AddElementToLanguagesArray = function (languages) {
 
   return 'A compléter';
 }
 
-var AjoutElementNombres = function (nombres) {
+var AddElementToNumbersArray = function (numbers) {
 
   return 'A compléter';
 }
 
-var SuppressionPremierElement = function (langages) {
+var deleteArrayFirstElement = function (languages) {
 
   return 'A compléter';
 }
 
-var SuppressionDernierElement = function (langages) {
+var deleteArrayLastElement = function (languages) {
 
   return 'A compléter';
 }
 
-var ConversionChaineTableau = function (reseaux_sociaux_chaine) {
+var stringToArray = function (socialMediaInString) {
 
   return 'A compléter';
 }
 
-var ConversionTableauChaine = function (langages) {
+var arrayToString = function (languages) {
 
   return 'A compléter';
 }
 
-var TriTableau = function (reseaux_sociaux) {
+var arraySort = function (socialMedia) {
 
   return 'A compléter';
 }
 
-var InversionTableau = function (reseaux_sociaux){
+var arrayInvert = function (socialMedia){
 
 
   return 'A compléter';
