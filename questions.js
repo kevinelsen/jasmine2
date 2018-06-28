@@ -1,55 +1,56 @@
 var languagesArrayCreation = function () {
 
-  return 'A compléter';
+  return  ['Html','CSS','Java','PHP'];
 }
 
 var numbersArrayCreation = function () {
 
-    return 'A compléter';
+    return [0,1,2,3,4,5];
 }
 
 var ElementReplacement = function (languages) {
-
-  return 'A compléter';
+languages.splice(2,1,'Javascript');
+  return languages;
 }
 
 var AddElementToLanguagesArray = function (languages) {
-
-  return 'A compléter';
+languages.splice(4,0,'Ruby','Python');
+  return languages;
 }
 
 var AddElementToNumbersArray = function (numbers) {
-
-  return 'A compléter';
+numbers.unshift(-2,-1);
+  return numbers;
 }
 
 var deleteArrayFirstElement = function (languages) {
+  languages.splice(0,1);
+    return languages;
 
-  return 'A compléter';
 }
 
 var deleteArrayLastElement = function (languages) {
-
-  return 'A compléter';
+languages.splice(4,1);
+  return languages;
 }
 
 var stringToArray = function (socialMediaInString) {
 
-  return 'A compléter';
+  return socialMediaInString.split(',');
 }
 
 var arrayToString = function (languages) {
 
-  return 'A compléter';
+  return languages.join(',');
 }
 
 var arraySort = function (socialMedia) {
 
-  return 'A compléter';
+  return socialMedia.sort();
 }
 
 var arrayInvert = function (socialMedia){
 
 
-  return 'A compléter';
+  return socialMedia.reverse();
 }
